@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h1>Job Application</h1>
+    <form>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br/>
+        <br/>
+
+
+
+        <label for="emailID">Email ID:</label>
+        <input type="text" id="emailID" name="name">
+        <br/>    
+        <br/>
+
+        <label for="phone_no">Phone No:</label>
+        <input type="tel" id=" phone_no" name="name">
+        <br/>
+        <br/>
+
+        <label for="fileupload">Resume:</label>
+        <br/>
+        <input type="file" name="fileupload" name="fileupload">
+        <br/>
+        <br/>
+
+        <label for="counter">Experience(years):</label>
+        <br/>
+        <input type="number" name="counter" id="counter" min="0" max="50">
+        <br/>
+        <br/>
+
+        <fieldset>
+            <legend>Skills</legend>
+
+            <input type="checkbox" name="checkbox1" id="checkbox1">
+            <br/>
+            <label for="checkbox1">HTML</label>
+            <br/>
+            <br/>
+            
+
+            <input type="checkbox" name="checkbox1" id="checkbox2">
+            <br/>
+            <label for="checkbox2">CSS</label>
+            <br/>
+            <br/>
+
+            <input type="checkbox" name="checkbox1" id="checkbox3">
+            <br/>
+            <label for="checkbox3">JavaScript</label>
+            <br/>
+            <br/>
+
+        </fieldset>
+        <br/>
+
+        <label for="educationtype">Highest Education:</label>
+        <br/>
+        <br/>
+        <select name="educationtype" id="educationtype">
+            <option value="highschool">High School</option>
+            <option value="associate's degree">Associate's Degree</option>
+            <option value="bachelor's degree">Bachelor's Degree</option>
+            <option value="master's degree">Master's Degree</option>
+            <option value="phd">PHD</option>
+        </select>
+        <br/>
+
+        <fieldset>
+            <legend>Availability:</legend>
+
+            <label for="radio">Full-Time</label>
+            <input type="radio" name="radio" id="radio1">
+            <br/>
+
+            <label for="radio">Part-Time</label>
+            <input type="radio" name="radio" id="radio1">
+            <br/>
+
+        </fieldset>
+        <label for="textarea1">Additional Comments</label>
+        <br/>
+        
+        <textarea name="textarea1" id="textarea1" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="Submit Application">
+    </form>
+
+</body>
+</html>
