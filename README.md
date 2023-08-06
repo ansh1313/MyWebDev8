@@ -3,4 +3,4 @@ Complete Full Mern Stack Web Development practice, and all coding practices will
 I'll be updating this on a regular basis.
 Firstly we will be doing Full HTML.
 Then we will go through Full CSS.
-After that, we will be going through Full Javascript.
+After that, we will be going through Full Javascript concepts.
